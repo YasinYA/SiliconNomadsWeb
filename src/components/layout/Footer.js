@@ -32,15 +32,18 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Social Media</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://dev.to/changoman">Facebook</a>
+            <a href="https://facebook.com/siliconnomads" target="blank">Facebook</a>
           </li>
           <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
+            <a href="https://twitter.com/siliconnomads" target="blank">Twitter</a>
           </li>
           <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+            <a href="https://Instagram.com/siliconnomads" target="blank">Instagram</a>
           </li>
         </ul>
+      </div>
+      <div className="flex-1">
+        <p>Built with <span style={{ color: 'red' }}>&hearts;</span> @ <a href="https://teckave.com">Teckave</a></p>
       </div>
     </div>
   </footer>
